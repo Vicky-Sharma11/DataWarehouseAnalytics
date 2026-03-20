@@ -1,0 +1,9 @@
+SELECT
+*
+FROM gold_dim_customers ;
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'DataWarehouseAnalytics';
+
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'gold_dim_customers';
