@@ -57,3 +57,4 @@ SELECT
 FROM customer_segmentation
 GROUP BY customer_segment
 ;
+

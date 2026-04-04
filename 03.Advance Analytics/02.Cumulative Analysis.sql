@@ -41,3 +41,4 @@ SELECT
         ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS moving_avg
 FROM total_sales_per_month
 ;
+

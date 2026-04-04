@@ -11,3 +11,4 @@ WHERE order_date != 0000
 GROUP BY DATE_FORMAT(order_date,'%Y-%m')
 ORDER BY  DATE_FORMAT(order_date,'%Y-%m')
 ;
+
